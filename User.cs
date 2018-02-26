@@ -6,6 +6,5 @@ namespace Test
         public string name;
         public string surname;
 
-
     }
 }

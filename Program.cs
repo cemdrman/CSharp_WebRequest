@@ -14,18 +14,15 @@ namespace Test
         public static void Main(string[] args)
         {
 
-            CustomRequest customRequest = new CustomRequest();
-            List<User> users = userList(customRequest.sendRequest("http://localhost:4000/api/users","GET"));
+            List<User> users = jsonDeserialize(CustomRequest.sendRequest("http://localhost:4000/api/users","GET"));
 
-
-            foreach (User user in users)
-            {
+            foreach (User user in users) {
                 Console.WriteLine("{0} {1}", user.name,user.surname);
             }
                       
         }
 
-        private static List<User> userList(string userJsonArray){
+        private static List<User> jsonDeserialize(string userJsonArray){
 
             List<User> users = JsonConvert.DeserializeObject<List<User>>(userJsonArray);
 
