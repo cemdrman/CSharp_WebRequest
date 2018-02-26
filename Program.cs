@@ -13,13 +13,19 @@ namespace Test
     {
         public static void Main(string[] args)
         {
-
+            string url;
+            string dbUser;
+            string pass;
             List<User> users = userJsonDeserialize(CustomRequest.sendRequest("http://localhost:4000/api/users","GET"));
 
             foreach (User user in users) {
                 Console.WriteLine("{0} {1}", user.name,user.surname);
+               
             }
-                      
+
+            MySqlDatabase database = MySqlDatabase.mySqlDBConnection(url, dbUser, pass);
+
+            database.connect();
         }
 
         private static List<User> userJsonDeserialize(string userJsonArray){

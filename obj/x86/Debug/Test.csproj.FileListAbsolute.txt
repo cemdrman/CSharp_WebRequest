@@ -1,0 +1,10 @@
+/Users/cemdirman/Projects/Test/Test/bin/Debug/Test.exe
+/Users/cemdirman/Projects/Test/Test/bin/Debug/Test.pdb
+/Users/cemdirman/Projects/Test/Test/obj/x86/Debug/Test.csproj.CoreCompileInputs.cache
+/Users/cemdirman/Projects/Test/Test/obj/x86/Debug/Test.exe
+/Users/cemdirman/Projects/Test/Test/obj/x86/Debug/Test.pdb
+/Users/cemdirman/Projects/Test/Test/bin/Debug/Newtonsoft.Json.dll
+/Users/cemdirman/Projects/Test/Test/bin/Debug/Newtonsoft.Json.xml
+/Users/cemdirman/Projects/Test/Test/obj/x86/Debug/Test.csprojResolveAssemblyReference.cache
+/Users/cemdirman/Projects/Test/Test/bin/Debug/Json.dll
+/Users/cemdirman/Projects/Test/Test/bin/Debug/Json.pdb
